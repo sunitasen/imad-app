@@ -4,6 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+
 var articles={
  'articleone':{
     title:'Article-one|| Sunita Sen',
@@ -81,6 +82,12 @@ function createTemplate(data){
 app.get('/', function (req, res) {
  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+var counter=0;
+app.get('/counter', function(req,res){
+    counter=counter+1;
+    res.send(counter.toString());
+});
+
 app.get('/:articlename',function(req,res) {
     var articlename=req.params.articlename;
     res.send(createTemplate(articles[articlename]));
