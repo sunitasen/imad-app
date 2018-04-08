@@ -1,143 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>my webapp :)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-   
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-     
-        body, h1,h2,h3,h4,h5,h6 
-        {font-family: "Montserrat", sans-serif ;
-         background-color:whitesmoke;
-        }
-       .w3-row-padding img {margin-bottom: 12px}
-       .bgimg {
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-image: url('http://images4.fanpop.com/image/photos/23400000/Beautiful-Lady-beautiful-images-23423632-389-500.jpg');
-       min-height: 100%;
-     } 
-    </style>
+   
 </head>
 <body>
-   <!-- Sidebar with image -->
-    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-        <div class="bgimg">
-            
-        </div>
-    </nav>
-    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-        <a  onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-          <i class="fa fa-remove"></i>
-        </a>
-        <div class="w3-bar-block w3-center">
-          <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-          <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-          <a href="#pictures" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Pictures</a>
-          <a href="#contacts" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-        </div>
-    </nav>
-     <!-- Menu icon to open sidebar -->
-     <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  <p class="w3-animatetopright w3-xxlarge">Helllllloooo</p>
     
-    
-    <!-- Page Content -->
-    
-    <div class="w3-main w3-padding-large" style="margin-left:40%; text-align:center;">  
-    <h1 class="w3-jumbo" style="padding-top:70px; font-size:25px; "><b>Sunita Sen</b></h1>
-    <p class="w3-large">Vivid dreamer||Baby-coder</p>
-     </div>
-    
-    <!--about section-->
-    <div class="w3-card-2 w3-padding-large" style="margin-left:42%; margin-right:2%;" id="about">
-        <p class="w3-xxlarge" style="text-align:left;">About</p>
-        <p class="w3-medium">A cs undergraduate. Ambivert.(google it,if unknown) </p>
-        <p class="w3-medium">The girl you pass by everyday probably. Yeah, that one who in a bus full of people is always busy with her novels,And you think.. yeww.. 'A geek'. Not actually.I jusy love my novels and laptop much more than crowd!</p>
-        <p class="w3-medium">Enough of intro. Lazy? Yeah!(-_-)</p>
-    </div>
-    
-    <!--images section -->
-    <p style="margin-left:42%; text-align:left;" class="w3-xxlarge" id="pictures">Some Pictures I love</p>
-    <p style="margin-left:42%; text-align:left;" class="w3-small" id="pictures">All pictures are taken from google.</p>
-    <div class="w3-row-padding" style="margin:0 -16px; margin-left:42%; margin-right:2%; text-align:left;">
-        <div class="w3-half">
-                <img class="w3-animate-opacity" src="http://photos1.blogger.com/blogger2/5937/2240/1600/Picture%202.jpg" style="width:100%">
-                <img class="w3-animate-opacity" src="http://community.clickersart.com/wp-content/uploads/2015/08/16788_456090104457582_2026259794_n.jpg" style="width:100%">
-                <img class="w3-animate-opacity" src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1482219271000/photosp/da9df1e3-5645-4875-b9a5-01fa875ad297/stock-photo-nature-road-women-landscape-yoga-calm-mountains-meditation-fitness-da9df1e3-5645-4875-b9a5-01fa875ad297.jpg" style="width:100%">
-        </div>
-        <div class="w3-half">
-                <img class="w3-animate-opacity" src="https://dencoy.files.wordpress.com/2013/04/img_8380.jpg" style="width:100%">
-                <img class="w3-animate-opacity" src="https://media.weddingz.in/images/9a1746b2a93a56b2da1572f0fc178b68/surats-best-candid-wedding-photographers-who-capture-the-quirky-in-you-the-sgn-photography-1.jpg" style="width:100%">
-                <img class="w3-animate-opacity" src="https://alicenealphotography.files.wordpress.com/2015/04/easter-monday9.jpg" style="width:100%">
-        </div>
-    </div>
-
-    <!--best friend section -->
-    <h3 class="w3-padding-24" style="margin-left:42%; text-align:left;">My Reputation</h3>
-
-
-    <ul class="w3-ul" style="margin-left:42%; text-align:left;">
-            <li class="w3-bar">
-            <img src="http://cdn2.stylecraze.com/wp-content/uploads/2013/11/280-Top-30-Most-Beautiful-Chinese-Women.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-              <div class="w3-bar-item">
-                <span class="w3-large">Subhasmita</span><br>
-                <span>Sweetest Friend</span>
-              </div>
-            </li>
-        
-            <li class="w3-bar">
-              
-              <img src="http://cdn2.stylecraze.com/wp-content/uploads/2013/11/280-Top-30-Most-Beautiful-Chinese-Women.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
-              <div class="w3-bar-item">
-                <span class="w3-large">Prangya</span><br>
-                <span>cracked</span>
-              </div>
-            </li>
-    </ul>
-
-    <!--contacts -->
-
-    <div class="w3-padding-32 w3-content" id="contacts" style="margin-bottom:64px; margin-left:42%; text-align:left;">
-            <h2>Contact Me</h2>
-            <hr class="w3-opacity">
-        
-            <div class="w3-section">
-              <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kolkata,India</p>
-              <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 1234567890</p>
-              <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: hehe@iamnotafool.com</p>
-            </div>
-    
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script>
-        // Open and close sidebar
-    function openNav() {
-        document.getElementById("mySidebar").style.width = "60%";
-        document.getElementById("mySidebar").style.display = "block";
-    }
-
-    function closeNav() {
-        document.getElementById("mySidebar").style.display = "none";
-    }
-      
-    </script>
-
 </body>
-</html>
+</html> 
