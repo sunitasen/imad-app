@@ -88,7 +88,7 @@ app.get('/proj', function (req, res) {
 });
 
 app.get('/blog', function (req, res) {
- res.sendFile(path.join(__dirname, 'ui', 'proj.html'));
+ res.sendFile(path.join(__dirname, 'ui', 'blog.html'));
 });
 
 var counter=0;
